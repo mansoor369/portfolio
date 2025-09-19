@@ -134,7 +134,6 @@
         1
       ]
     },
-    
     {
       "show": true,
       "title": "Lane View Driving School Web App",
@@ -166,24 +165,26 @@
       "show": true,
       "title": "Data Analytics Dashboard",
       "desc": [
-        "Saku Senyum is a website that I created as a Fullstack Developer in PT Hafdzahmedia based on client request. The website is a sales management for UMKM or small business. The website is built using Next.js, TypeScript, Tailwind CSS, ShadCN UI, Prisma, and MySQL.",
-        "The website has a few features such as a dashboard for the user to manage their business sales, a statistic page, and a sales report page. User can see their sales performance in a fancy chart to make it easier to understand. The user also can export their sales report to a PDF file which can be printed or saved to their device."
+        "I designed and maintained comprehensive Power BI dashboards covering student registration, enrollment, multi-institute attendance, placements, trainer performance, and feedback analysis. I built robust ETL pipelines to clean, transform, and integrate data from diverse sources such as Excel, SQL, and institutional records. My work included developing KPIs and performance metrics to track training effectiveness, placement success rates, and institute-wise performance. I also automated attendance and enrollment reporting across institutes to improve decision-making and transparency, while delivering actionable insights to stakeholders for program monitoring and policy improvements."
       ],
-      "year": "2024",
-      "thumbnail": "/image/projects/web/saku-senyum/saku-senyum-thumbnail.png",
+      "year": "2025",
+      "thumbnail": "/hazza/monthlyattendance.png",
       "images": [
-        "/image/projects/web/saku-senyum/saku-senyum1.png",
-        "/image/projects/web/saku-senyum/saku-senyum2.png",
-        "/image/projects/web/saku-senyum/saku-senyum3.png",
-        "/image/projects/web/saku-senyum/saku-senyum4.png"
+        "/hazza/monthlyattendance.png",
+        "/hazza/datewise.png",
+        "/hazza/feedback.png",
+        "/hazza/partners.png",
+        "/hazza/top.png",
+        "/hazza/reported students.png",
+        "/hazza/leads.png"
       ],
       "tech": [
-        "NextJS",
-        "Typescript",
-        "Shadcn UI",
-        "Tailwind CSS",
-        "Prisma",
-        "MySQL"
+        "Power BI",
+        "SQL",
+        "Excel",
+        "Python (Pandas, NumPy)",
+        "ETL Pipelines",
+        "Data Visualization"
       ],
       "slug": "saku-senyum",
       "category": [
