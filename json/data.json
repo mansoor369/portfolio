@@ -1,0 +1,194 @@
+{
+  "Projects": [
+    {
+      "show": true,
+      "title": "PARVENETTA",
+      "desc": [
+        "PARVENETTA lets you create your suit and apparel right in front of you — from jacket to pant and from T-shirt to hoodie — by selecting fabric, lapels, buttons, pockets, stitching, and more in an intuitive live configurator.",
+        "A second module, Build Your Brand, enables end-to-end customization of apparel like T‑shirts, hoodies, and zip hoodies — including pockets, trims, panel placements, and top-stitching — through a comprehensive nine‑step process.",
+        "Designed to streamline bespoke tailoring and private‑label production with a modern, visual experience for both individual shoppers and brands."
+      ],
+      "year": "2025",
+      "preview": "https://parvenetta.com/",
+      "code": "",
+      "thumbnail": "/parv/Home.png",
+      "images": [
+        "/parv/Home.png",
+        "/parv/Home2.png",
+        "/parv/DesignPage.png",
+        "/parv/FitPage.png",
+        "/parv/NeckLabel.png",
+        "/parv/CareLabel.png",
+        "/parv/Customization.png",
+        "/parv/BespokeSuitType.png",
+        "/parv/BespokeLapel.png",
+        "/parv/BespokeButton.png",
+        "/parv/BespokePockets.png",
+        "/parv/PantbackPockets.png",
+        "/parv/Home_Footer.png"
+      ],
+      "tech": [
+        "Typescript",
+        "Tailwind CSS",
+        "React",
+        "NextJS",
+        "Shadcn UI"
+      ],
+      "slug": "parvenetta",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "Client Personal Portfolio Website",
+      "desc": [
+        "A personal portfolio website for a graphic designer that I created for a client. The website is built using two main tech, Next.js, Javascript, TailwindCSS. The website also created based on the client design, and improved and sliced by me. The website has a few features such as a about page, a project page, resume page, and a contact page.",
+        "The website is created using a modern design and a clean interface that appeals to a wide audience."
+      ],
+      "year": "2025",
+      "preview": "https://safa-portfolio.vercel.app/",
+      "code": "https://github.com/mansoor369/Safa",
+      "thumbnail": "/safa/safa2.png",
+      "images": [
+        "/safa/safa.png",
+        "/safa/safa2.png",
+        "/safa/work.png",
+        "/safa/projects.png",
+        "/safa/practice.png",
+        "/safa/volunteering.png"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JS",
+        "ReactJS",
+        "TailwindCSS",
+        "NextJS",
+        "Typescript"
+      ],
+      "slug": "apii-porto",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "YB Consultants",
+      "desc": [
+        "YB Consultants is a smart education consultancy platform that streamlines the university application journey for students. Through the website, students can register for their desired university and course, upload personal and academic documents, and track their application status in real time. The platform also features a university search engine, allowing students to filter by country, department, and intake period to find institutions they are eligible for—making the entire admission process easier, faster, and more transparent."
+      ],
+      "year": "2024",
+      "preview": "https://www.ybconsultants.pk/",
+      "code": "https://github.com/abdullahshakur149/YB-Consultancy-",
+      "thumbnail": "/YB/yb.png",
+      "images": [
+        "/YB/yb.png",
+        "/YB/YB3.png",
+        "/YB/YB2.png",
+        "/YB/YB4.png",
+        "/YB/search.png",
+        "/YB/programs.png",
+        "/YB/dashboard.png",
+        "/YB/status.png"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JS",
+        "ReactJS",
+        "TailwindCSS",
+        "NextJS",
+        "Typescript"
+      ],
+      "slug": "mind-mirror",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "Business Fest 2024",
+      "desc": [
+        "I, along with my teammate Abdullah Shakur, designed and developed a full-stack web application for our university’s flagship event, Business Fest. The platform featured a student portal with sign-up/sign-in and stall registration, integrated OpenAI’s LLM to auto-evaluate stall ideas with constructive feedback, and provided a stall evaluation system for teachers and judges based on ten predefined criteria. We also created an admin dashboard to manage student, guest, and Qawali night registrations while enabling real-time monitoring of stall evaluation results."
+      ],
+      "year": "2024",
+      "preview": "https://www.businessfest2024.com/",
+      "code": "https://github.com/abdullahshakur149/Bfest-2024",
+      "thumbnail": "/businesfest.png",
+      "images": [
+        "/bfest1.png",
+        "/bfest2.png"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JS",
+        "ReactJS",
+        "TailwindCSS",
+        "NextJS",
+        "Typescript"
+      ],
+      "slug": "javanese-translation",
+      "category": [
+        1
+      ]
+    },
+    
+    {
+      "show": true,
+      "title": "Lane View Driving School Web App",
+      "desc": [
+        "I developed a web application for Lane View Driving School using Next.js and Express.js. As the front-end developer, I designed and built the index page, hourly courses page, and intensive courses display page. The platform included an Admin Portal to manage and track user registrations, postal code-based filtering to display matched hourly courses, and Stripe integration for secure payment processing."
+      ],
+      "year": "2024",
+      "preview": "https://www.laneviewds.com/",
+      "code": "https://github.com/abdullahshakur149/Adamsdrive",
+      "thumbnail": "/lv/lv1.png",
+      "images": [
+        "/lv/lv1.png",
+        "/lv/lv2.png",
+        "/lv/footer.png"
+      ],
+      "tech": [
+        "NextJS",
+        "Shadcn UI",
+        "Tailwind CSS",
+        "Firebase",
+        "Gemini API"
+      ],
+      "slug": "lane-view",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "Data Analytics Dashboard",
+      "desc": [
+        "Saku Senyum is a website that I created as a Fullstack Developer in PT Hafdzahmedia based on client request. The website is a sales management for UMKM or small business. The website is built using Next.js, TypeScript, Tailwind CSS, ShadCN UI, Prisma, and MySQL.",
+        "The website has a few features such as a dashboard for the user to manage their business sales, a statistic page, and a sales report page. User can see their sales performance in a fancy chart to make it easier to understand. The user also can export their sales report to a PDF file which can be printed or saved to their device."
+      ],
+      "year": "2024",
+      "thumbnail": "/image/projects/web/saku-senyum/saku-senyum-thumbnail.png",
+      "images": [
+        "/image/projects/web/saku-senyum/saku-senyum1.png",
+        "/image/projects/web/saku-senyum/saku-senyum2.png",
+        "/image/projects/web/saku-senyum/saku-senyum3.png",
+        "/image/projects/web/saku-senyum/saku-senyum4.png"
+      ],
+      "tech": [
+        "NextJS",
+        "Typescript",
+        "Shadcn UI",
+        "Tailwind CSS",
+        "Prisma",
+        "MySQL"
+      ],
+      "slug": "saku-senyum",
+      "category": [
+        2
+      ]
+    }
+  ]
+}
