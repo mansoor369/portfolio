@@ -104,13 +104,4 @@ Enjoy chat realtime with ease using Intelliticks (https://app.intelliticks.com/)
 
 Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
 
-## Reference (inspiration)
 
-- https://www.frans.my.id/
-- https://kuon-yagi-portfolio.netlify.app/
-
-## License
-
-This project is licensed under the GPL-3.0 License see the [LICENSE](LICENSE) file for details.
-
-Copyright (C) 2025 Alvalen Shafelbilyunazra
