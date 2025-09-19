@@ -42,7 +42,7 @@ export const metadata = {
 
 	openGraph: {
 		type: "website",
-		url: "https://www.alvalens.my.id",
+		url: "",
 		title: "Mansoor khan | Portofolio",
 		site_name: "Mansoor khan | Portofolio",
 		description: "My name is Mansoor, This is my portofolio website.",
@@ -50,12 +50,14 @@ export const metadata = {
 		height: 630,
 		images: [
 			{
-				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
+				url: ".png",
+				alt: "Mansoor Portofolio",
 			},
 		],
 		site_name: "Mansoor khan | Portofolio",
-	}
+	},
+	// Single favicon reference
+	icons: "/M.png",
 };
 
 export default function RootLayout({ children }) {
