@@ -15,6 +15,7 @@ import Education from "./components/education.jsx";
 // images
 import Me2 from "@/public/Me.jpg";
 
+
 import Hr from "@/components/Hr";
 import About from "./components/about/about.jsx";
 

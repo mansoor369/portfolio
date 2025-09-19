@@ -56,7 +56,6 @@ export const metadata = {
 		],
 		site_name: "Mansoor khan | Portofolio",
 	},
-	// Single favicon reference
 	icons: "/M.png",
 };
 

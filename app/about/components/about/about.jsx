@@ -2,8 +2,11 @@ import Image from "next/image";
 import Card from "./spotify/card";
 import { motion } from "framer-motion";
 import Me1 from "@/public/Me.jpg";
-import Me2 from "@/public/image/me2.jpg";
-import Me3 from "@/public/image/me3.jpg";
+import Me3 from "@/public/me.jpeg";
+import Me4 from "@/public/me2.jpeg";
+import Me5 from "@/public/me5.png";
+import Me6 from "@/public/me6.png";
+
 import Hr from "@/components/Hr";
 
 function Title() {
@@ -34,7 +37,7 @@ export default function About() {
 								}}
 								className="w-full h-full">
 								<Image
-									src={Me1}
+									src={Me5}
 									alt="Alvalens"
 									layout="fill"
 									objectFit="cover"
@@ -57,7 +60,7 @@ export default function About() {
 								transition={{ delay: 0.3 }}
 								className="w-full h-full">
 								<Image
-									src={Me1}
+									src={Me3}
 									alt="Alvalens"
 									layout="fill"
 									objectFit="cover"
@@ -82,7 +85,7 @@ export default function About() {
 								}}
 								className="w-full h-full">
 								<Image
-									src={Me1}
+									src={Me4}
 									alt="Alvalens"
 									layout="fill"
 									objectFit="cover"

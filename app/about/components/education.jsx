@@ -3,7 +3,11 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import Me from "@/public/Me.jpg";
-
+import Me1 from "@/public/Me.jpg";
+import Me3 from "@/public/me.jpeg";
+import Me4 from "@/public/me2.jpeg";
+import Me5 from "@/public/me5.png";
+import Me6 from "@/public/me6.png";
 function Wrapper({ children }) {
 	return (
 		<div className="mx-auto container gap-10 p-10 grid grid-cols-1 my-10">
@@ -74,7 +78,7 @@ export default function Education() {
 							<div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
 								<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[0.5]  group">
 									<Image
-										src={Me}
+										src={Me4}
 										width={400}
 										height={225}
 										alt="University"
@@ -83,7 +87,7 @@ export default function Education() {
 								</div>
 								<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[0.5] group">
 									<Image
-										src={Me}
+										src={Me5}
 										width={400}
 										height={225}
 										alt="University"
@@ -92,7 +96,7 @@ export default function Education() {
 								</div>
 								<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[0.5] group">
 									<Image
-										src={Me}
+										src={Me3}
 										width={400}
 										height={225}
 										alt="University"
