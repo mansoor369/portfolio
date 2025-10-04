@@ -380,7 +380,7 @@ const MyPage = () => {
 											/>
 										</motion.a> */}
 										<motion.a
-											href="https://www.linkedin.com/in/mansoorkhan02/"
+											href="https://www.linkedin.com/in/mkyzai333/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
