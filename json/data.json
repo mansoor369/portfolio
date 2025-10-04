@@ -39,39 +39,7 @@
         1
       ]
     },
-    {
-      "show": true,
-      "title": "Client Personal Portfolio Website",
-      "desc": [
-        "A personal portfolio website for a graphic designer that I created for a client. The website is built using two main tech, Next.js, Javascript, TailwindCSS. The website also created based on the client design, and improved and sliced by me. The website has a few features such as a about page, a project page, resume page, and a contact page.",
-        "The website is created using a modern design and a clean interface that appeals to a wide audience."
-      ],
-      "year": "2025",
-      "preview": "https://safa-portfolio.vercel.app/",
-      "code": "https://github.com/mansoor369/Safa",
-      "thumbnail": "/safa/safa2.png",
-      "images": [
-        "/safa/safa.png",
-        "/safa/safa2.png",
-        "/safa/work.png",
-        "/safa/projects.png",
-        "/safa/practice.png",
-        "/safa/volunteering.png"
-      ],
-      "tech": [
-        "HTML",
-        "CSS",
-        "JS",
-        "ReactJS",
-        "TailwindCSS",
-        "NextJS",
-        "Typescript"
-      ],
-      "slug": "client-personal-portfolio-website",
-      "category": [
-        1
-      ]
-    },
+   
     {
       "show": true,
       "title": "YB Consultants",
