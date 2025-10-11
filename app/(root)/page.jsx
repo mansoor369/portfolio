@@ -331,8 +331,8 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										<a href="mailto:mansoorky333@gmail.com">
-											mansoorky333@gmail.com
+										<a href="mailto:mkyzai333@gmail.com">
+											mkyzai333@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
