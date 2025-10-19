@@ -99,7 +99,7 @@ const MyPage = () => {
 										}}>
 										<Button variation="primary">
 											<Link
-												href={"/Mansoor_Resume.pdf"}
+												href={"/Mansoor-SWE.pdf"}
 												target="_blank"
 												rel="noopener noreferrer"
 												download>
