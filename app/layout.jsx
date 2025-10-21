@@ -45,7 +45,7 @@ export const metadata = {
 		url: "",
 		title: "Mansoor khan | Portofolio",
 		site_name: "Mansoor khan | Portofolio",
-		description: "My name is Mansoor, This is my portofolio website.",
+		description: "Yo Wasssup bro this my portfolio.",
 		width: 1200,
 		height: 630,
 		images: [
