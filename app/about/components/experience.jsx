@@ -7,60 +7,40 @@ const experiences = [
 	{
 		id: 1,
 		startDate: "July 2022",
-		endDate: "Sept 2022",
-		company: "Guideway",
-		position: "Front-end Web Development Intern",
+		endDate: "Present",
+		company: "Freelance",
+		position: "Full Stack Developer",
 		type: "Remote",
-		location: "Peshawar, Pakistan",
+		location: "Pakistan",
 		description:
-			"Built a demo web platform for tutor booking using HTML, CSS, Bootstrap, JS. Focused on intuitive UI for tutor and student interactions.",
-		skills: ["Bootstrap", "HTML", "CSS"],
+			"Working as a freelance Full Stack Developer, delivering end-to-end web solutions for startups, businesses, and individual clients. I design and develop responsive landing pages, dashboards, admin panels, and production-ready web applications with a strong emphasis on modern UI/UX principles, performance optimization, and scalability. I actively work with technologies such as React.js, Next.js, and Tailwind CSS to build component-driven interfaces, while integrating secure APIs, implementing custom business logic, and developing data-driven features. I collaborate directly with clients to gather requirements, propose technical solutions, manage revisions, and deliver maintainable, high-quality code.",
+		skills: [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"Bootstrap",
+			"React.js",
+			"Next.js",
+			"Tailwind CSS",
+			"Python",
+			"MySQL",
+			"Pandas",
+			"REST APIs",
+			"Problem Solving",
+			"Client Communication",
+		],
 	},
 	{
 		id: 2,
-		startDate: "December 2022",
-		endDate: "January 2024",
-		company: "Veevo Tech",
-		position: "Web Engineer | Front-end Web Developer",
-		type: "Hybrid",
-		location: "Peshawar, Pakistan",
-		description: "**Lane View Driving School Web App (Next.js, Express.js)** – Built a complete course booking platform with postal code–based filtering, secure Stripe payments, and an Admin Portal to manage registrations. Designed and developed the index, hourly courses, and intensive courses pages as a Frontend Developer. **Parvenetta – Custom Apparel & Suit Designer (Next.js)** – Developed Build Your Brand (BYB) and Bespoke modules for real-time apparel and suit customization. Implemented a 9-stage customization flow with real-time previews, file upload support, and email integration for news and updates. **Business Fest 2024 Web App (Next.js, OpenAI LLM)** – Designed and developed modules for student and guest registrations, stall submissions, and live stall evaluations. Integrated OpenAI LLM for automatic stall idea evaluation with instant feedback and created an Admin Dashboard to manage sign-ups and view real-time evaluation results.",
-		skills: ["Generative AI", "Open AI LLM", "Next.js", "Tailwind CSS", "JSX", "Problem Solving", "Prompt Engineering", "Teamwork"],
-	}
-	,
-	{
-		id: 3,
-		startDate: "Feb 2024",
-		endDate: "May 2024",
-		company: "National & Vocational Techincal Training Commission",
-		position: "React and Python Trainee",
-		type: "On-site",
-		location: "Peshawar, Pakistan",
-		description:
-			"Completed a 4-month training in React.js, mastering Components, Props, useState, useEffect, useContext, useReducer, React Router, and JSX to build real-world applications with dynamic UI and efficient logic. Built real-world apps with dynamic UI and efficient logic. ",
-		skills: ["React.js", "MySQL", "JavaScript", "Python", "Numpy", "Pandas"],
-	},
-	{
-		id: 4,
-		startDate: "2024 july",
-		endDate: "Jul 2025",
-		company: "Pixtrum",
-		position: "Software Engineer",
-		type: "On-Site",
-		location: "Peshawar, Pakistan",
-		description: "University Recommender System & Application Progress Tracker (Next.js) – Collaborated in a team of two as the Front-end Developer to build a platform recommending suitable international universities based on CGPA, language, education years, target country, and preferred course. Enabled applicants to submit applications online with personal, academic, and document details, along with an Application Progress Tracker to monitor each step of their application. Built an Admin Panel with CRUD functionality for managing users, applications, countries, universities, programs, and departments, while providing real-time application status updates. Focused on front-end architecture, component-based data flow, and secure API integration. Personal Portfolio (Next.js) – Designed and developed a personal portfolio website for a graphic designer to showcase projects, skills, and contact details with a focus on modern UI/UX, responsive design, and optimized performance."
-		, skills: ["Next.js", "Javascript", "Tailwind CSS", "JSX", "Problem Solving", "Prompt Engineering", "Teamwork"],
-	},
-	{
-		id: 5,
 		startDate: "July 2025",
 		endDate: "Present",
 		company: "NAVTTC",
 		position: "Web Developer & Data Analyst",
 		type: "On-Site",
 		location: "Islamabad, Pakistan",
-		description: "Prime Minister’s Overseas Employment Program – Comprehensive Data Analytics Dashboard (Registration · Enrollment · Attendance · Placements · Trainers · Feedback · KPIs). Designed and maintained end-to-end Power BI dashboards covering student registration, enrollment, multi-institute attendance, placements, trainer performance, and feedback analysis. Built robust ETL pipelines to clean, transform, and integrate data from Excel, SQL, and institutional records. Developed KPIs and performance metrics to track training effectiveness, placement success rates, and institute-wise performance. Automated attendance and enrollment reporting across institutes to improve transparency and decision-making, while delivering actionable insights to stakeholders for program monitoring and policy improvements."
-		, skills: [
+		description:
+			"Working as a Web Developer & Data Analyst on the Prime Minister’s Overseas Employment Program, where I design, develop, and maintain comprehensive data analytics dashboards covering registration, enrollment, attendance, placements, trainers, feedback, and KPI tracking across multiple institutes. I build and optimize Power BI dashboards to provide real-time and actionable insights for stakeholders. My responsibilities include developing robust ETL pipelines to clean, transform, and integrate data from Excel, SQL databases, and institutional records, automating reporting workflows, defining performance metrics, and supporting data-driven decision-making for program monitoring and policy improvement.",
+		skills: [
 			"Next.js",
 			"React.js",
 			"JavaScript",
@@ -71,14 +51,15 @@ const experiences = [
 			"Power BI",
 			"Excel VBA",
 			"Python",
-			"ETL Pipelines"
+			"ETL Pipelines",
+			"Data Analysis",
+			"KPI Development",
 		],
-
 	},
-	
 ];
 
 experiences.reverse();
+
 
 function Title() {
 	return (
