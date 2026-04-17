@@ -2,14 +2,14 @@
 import Link from "next/link";
 import { motion, useScroll, useTransform, useSpring, Variants, MotionValue } from "framer-motion";
 
-const ScatteringLetter = ({ 
-  letter, 
-  index, 
+const ScatteringLetter = ({
+  letter,
+  index,
   smoothScroll,
-  variants 
-}: { 
-  letter: string; 
-  index: number; 
+  variants
+}: {
+  letter: string;
+  index: number;
   smoothScroll: MotionValue<number>;
   variants: Variants;
 }) => {
@@ -64,25 +64,25 @@ export default function Header() {
     { name: "Contact", link: "/contact" },
   ];
 
-  const name = "MANSOOR KHAN";
+  const name = "Full Stack Developer";
 
   return (
     <header className="sticky top-0 z-50 bg-transparent">
-      <motion.div 
+      <motion.div
         style={{ y: headerY, scale: headerScale }}
         className="py-12 flex justify-center overflow-visible"
       >
-        <motion.h1 
-          variants={containerVariants} 
-          initial="hidden" 
-          animate="visible" 
-          className="text-7xl font-sekuya tracking-tight flex select-none drop-shadow-2xl"
+        <motion.h1
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="text-4xl font-sekuya tracking-tight flex select-none drop-shadow-2xl"
         >
           {name.split("").map((letter, index) => (
-            <ScatteringLetter 
-              key={index} 
-              letter={letter} 
-              index={index} 
+            <ScatteringLetter
+              key={index}
+              letter={letter}
+              index={index}
               smoothScroll={smoothScroll}
               variants={childVariants}
             />

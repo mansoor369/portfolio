@@ -5,7 +5,10 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Intro />
+
+      <div className="max-w-8xl mx-20">
+        <Intro />
+      </div>
     </div>
   );
 }

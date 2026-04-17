@@ -27,7 +27,7 @@
 
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-sekuya: var(--font-sekuya);
-
+  --font-bebas: var(--font-bebas);
   --animate-glint: glint 3s infinite;
 
   @keyframes glint {
