@@ -1,0 +1,184 @@
+{
+    "site_metadata": {
+        "title": "Mansoor Khan | Portofolio",
+        "description": "My name is Mansoor khan, I'm a web developer and a Data Analyst and I'm passionate about it. I'm currently working as a Data Analyst at NAVTTC Pakistan.",
+        "og_description": "Yo Wasssup bro this my portfolio.",
+        "keywords": [
+            "Mansoor Khan",
+            "Mansoor Khan Developer",
+            "Mansoor Khan Web Developer",
+            "Mansoor Khan Software Engineer",
+            "Mansoor Khan Data Analyst",
+            "Mansoor Khan Next.js",
+            "Mansoor Khan React",
+            "Mansoor Khan Power BI",
+            "Mansoor Khan Portfolio",
+            "Mansoor Khan IMSciences",
+            "Mansoor Khan Projects",
+            "Mansoor Khan Dashboard Developer",
+            "Mansoor Khan Full Stack",
+            "Mansoor Khan Business Fest",
+            "Mansoor Khan Lane View Driving School",
+            "Mansoor Khan Student Recommender System",
+            "Mansoor Khan Vocational Training System",
+            "Mansoor Khan IM Hackathon",
+            "Mansoor Khan IM Olympiad"
+        ],
+        "icons": "/M.png"
+    },
+    "socials": {
+        "github": "https://github.com/mansoor369",
+        "linkedin": "https://www.linkedin.com/in/mkyzai333/",
+        "email": "mailto:mkyzai333@gmail.com"
+    },
+    "quote": {
+        "text": "There are no limits to what you can accomplish except the limits you place on your own thinking."
+    },
+    "experience": [
+        {
+            "company": "NAVTTC",
+            "position": "Web Developer & Data Analyst",
+            "location": "Islamabad, Pakistan",
+            "type": "On-Site",
+            "startDate": "July 2025",
+            "endDate": "Present",
+            "description": "Working as a Web Developer & Data Analyst on the Prime Minister’s Overseas Employment Program, where I design, develop, and maintain comprehensive data analytics dashboards covering registration, enrollment, attendance, placements, trainers, feedback, and KPI tracking across multiple institutes. I build and optimize Power BI dashboards to provide real-time and actionable insights for stakeholders. My responsibilities include developing robust ETL pipelines to clean, transform, and integrate data from Excel, SQL databases, and institutional records, automating reporting workflows, defining performance metrics, and supporting data-driven decision-making for program monitoring and policy improvement.",
+            "skills": [
+                "Next.js",
+                "React.js",
+                "JavaScript",
+                "TypeScript",
+                "Tailwind CSS",
+                "Express.js",
+                "SQL",
+                "Power BI",
+                "Excel VBA",
+                "Python",
+                "ETL Pipelines",
+                "Data Analysis",
+                "KPI Development"
+            ]
+        },
+        {
+            "company": "Freelance",
+            "position": "Full Stack Developer",
+            "location": "Pakistan",
+            "type": "Remote",
+            "startDate": "July 2022",
+            "endDate": "Present",
+            "description": "Working as a freelance Full Stack Developer, delivering end-to-end web solutions for startups, businesses, and individual clients. I design and develop responsive landing pages, dashboards, admin panels, and production-ready web applications with a strong emphasis on modern UI/UX principles, performance optimization, and scalability. I actively work with technologies such as React.js, Next.js, and Tailwind CSS to build component-driven interfaces, while integrating secure APIs, implementing custom business logic, and developing data-driven features. I collaborate directly with clients to gather requirements, propose technical solutions, manage revisions, and deliver maintainable, high-quality code.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "React.js",
+                "Next.js",
+                "Tailwind CSS",
+                "Python",
+                "MySQL",
+                "Pandas",
+                "REST APIs",
+                "Problem Solving",
+                "Client Communication"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Institute of Management Sciences, Peshawar",
+            "degree": "Bachelors of Software Engineering",
+            "years": "2021 - 2025",
+            "gpa": "3.31 out of 4",
+            "description": "Aspiring to become a professional Software Engineer, I’m currently pursuing my Bachelor’s degree in Software Engineering at Institute of Management Sciences, Peshawar. My journey in tech is driven by curiosity and creativity—combining web development with cutting-edge AI research and implementation. I have built impactful digital solutions in Web Development and Data Analytics. From building full-stack applications to designing Power BI dashboards, I thrive on solving real-world problems with code and data."
+        },
+        {
+            "institution": "Edwardes College Peshawar",
+            "degree": "Higher Secondary School Certificate (HSSC)",
+            "years": "2019 - 2020",
+            "description": ""
+        },
+        {
+            "institution": "Institute of Learning and Motivation (ILM)",
+            "degree": "Secondary School Certificate (Matric)",
+            "years": "2008 - 2018",
+            "description": ""
+        }
+    ],
+    "projects": [
+        {
+            "show": true,
+            "title": "PARVENETTA",
+            "desc": [
+                "PARVENETTA lets you create your suit and apparel right in front of you — from jacket to pant and from T-shirt to hoodie — by selecting fabric, lapels, buttons, pockets, stitching, and more in an intuitive live configurator.",
+                "A second module, Build Your Brand, enables end-to-end customization of apparel like T‑shirts, hoodies, and zip hoodies — including pockets, trims, panel placements, and top-stitching — through a comprehensive nine‑step process.",
+                "Designed to streamline bespoke tailoring and private‑label production with a modern, visual experience for both individual shoppers and brands."
+            ],
+            "year": "2025",
+            "preview": "https://parvenetta.com/",
+            "code": "",
+            "thumbnail": "/parv/Home.png",
+            "images": [
+                "/parv/Home.png",
+                "/parv/Home2.png",
+                "/parv/DesignPage.png",
+                "/parv/FitPage.png",
+                "/parv/NeckLabel.png",
+                "/parv/CareLabel.png",
+                "/parv/Customization.png",
+                "/parv/BespokeSuitType.png",
+                "/parv/BespokeLapel.png",
+                "/parv/BespokeButton.png",
+                "/parv/BespokePockets.png",
+                "/parv/PantbackPockets.png",
+                "/parv/Home_Footer.png"
+            ],
+            "tech": [
+                "Typescript",
+                "Tailwind CSS",
+                "React",
+                "NextJS",
+                "Shadcn UI"
+            ],
+            "slug": "parvenetta",
+            "categories": [
+                "Web Development"
+            ]
+        },
+        {
+            "show": true,
+            "title": "YB Consultants",
+            "desc": [
+                "Students can register for universities, upload documents, and track their application status through an intuitive dashboard.",
+                "Includes an integrated search engine for institutions, allowing students to filter by country, department, and intake period for instant eligibility checks."
+            ],
+            "year": "2024",
+            "preview": "https://www.ybconsultants.pk/",
+            "code": "https://github.com/abdullahshakur149/YB-Consultancy-",
+            "thumbnail": "/YB/yb.png",
+            "images": [
+                "/YB/yb.png",
+                "/YB/YB3.png",
+                "/YB/YB2.png",
+                "/YB/YB4.png",
+                "/YB/search.png",
+                "/YB/programs.png",
+                "/YB/dashboard.png",
+                "/YB/status.png"
+            ],
+            "tech": [
+                "HTML",
+                "CSS",
+                "JS",
+                "ReactJS",
+                "TailwindCSS",
+                "NextJS",
+                "Typescript"
+            ],
+            "slug": "yb-consultants",
+            "categories": [
+                "Web Development"
+            ]
+        }
+    ]
+}
