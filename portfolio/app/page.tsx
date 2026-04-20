@@ -27,7 +27,7 @@ export default function Home() {
     <div>
       <Header />
 
-      <div className="max-w-8xl mx-20">
+      <div className="w-10/12 mx-auto">
         <Intro />
         <About />
         <Projects />

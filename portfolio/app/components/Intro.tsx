@@ -63,12 +63,12 @@ export default function Intro() {
   const lineX = useTransform(globalScroll, [0, 0.05], [0, 2000]);
 
   return (
-    <section className=" mt-16">
+    <section className="mt-6 md:mt-12 lg:mt-0">
       <div className="link flex justify-between">
-        <span className="text-[11px] font-bebas tracking-widest text-accent-gold-dark">
+        <span className="text-[10px] md:text-[11px] font-bebas tracking-widest text-accent-gold-dark">
           mky333.vercel.app
         </span>
-        <span className="text-[11px] font-sekuya tracking-widest text-accent-gold-dark">
+        <span className="text-[10px] md:text-[11px] font-sekuya tracking-widest text-accent-gold-dark">
           Vol. 1 / 2026
         </span>
       </div>
@@ -78,17 +78,17 @@ export default function Intro() {
         ref={heroRef}
         onMouseEnter={() => setcolorchange(true)}
         onMouseLeave={() => setcolorchange(false)}
-        className="mt-8 flex flex-col items-start select-none w-full overflow-hidden cursor-default"
+        className="mt-6 md:mt-8 flex flex-col items-start select-none w-full overflow-hidden cursor-default"
       >
         <motion.div
           style={{ y: mansoorY }}
-          className={`font-bebas transition-colors duration-300 text-[20.5vw] font-bold leading-[0.85] tracking-wider ${colorchange ? "text-accent-gold-dark" : "text-foreground"}`}
+          className={`font-bebas transition-colors duration-300 text-[24vw] sm:text-[22vw] md:text-[20.5vw] font-bold leading-[0.85] tracking-wider ${colorchange ? "text-accent-gold-dark" : "text-foreground"}`}
         >
           MANSOOR
         </motion.div>
         <motion.div
           style={{ x: khanX }}
-          className={`font-bebas transition-colors duration-300 text-[20.5vw] font-bold leading-[0.9] ml-5 tracking-wider -mt-[0.1em] ${colorchange ? "text-white" : "text-accent-gold-dark"}`}
+          className={`font-bebas transition-colors duration-300 text-[24vw] sm:text-[22vw] md:text-[20.5vw] font-bold leading-[0.9] ml-2 md:ml-5 tracking-wider -mt-[0.1em] ${colorchange ? "text-white" : "text-accent-gold-dark"}`}
         >
           KHAN
         </motion.div>
@@ -99,26 +99,26 @@ export default function Intro() {
       </div>
 
       {/* STICKY SCROLL SECTION */}
-      <div ref={containerRef} className="relative h-[300vh] mt-32">
+      <div ref={containerRef} className="relative h-[300vh] mt-16 md:mt-32">
         <div className="sticky top-0 h-screen flex flex-col justify-center items-center overflow-hidden">
-          <div className=" w-full px-10">
+          <div className="w-full px-4 md:px-10">
             <StickySentence
               text="Make IT FEEL."
               progress={scrollYProgress}
               range={[0, 0.33]}
-              classname="font-bebas text-[14vw] leading-[0.8]"
+              classname="font-bebas text-[18vw] sm:text-[16vw] md:text-[14vw] leading-[0.8]"
             />
             <StickySentence
               text="Make IT MEAN SOMETHING."
               progress={scrollYProgress}
               range={[0.33, 0.66]}
-              classname="font-bebas text-[8vw] mx-3 leading-[1]"
+              classname="font-bebas text-[12vw] sm:text-[10vw] md:text-[8vw] mx-1 md:mx-3 leading-[1]"
             />
             <StickySentence
               text="KEEP IT RAW."
               progress={scrollYProgress}
               range={[0.66, 1.0]}
-              classname="font-bebas -mx-10 text-[14vw] leading-[1]"
+              classname="font-bebas text-[18vw] sm:text-[16vw] md:text-[14vw] leading-[1] md:-mx-10"
             />
           </div>
         </div>
@@ -126,6 +126,7 @@ export default function Intro() {
     </section>
   );
 }
+
 
 
 

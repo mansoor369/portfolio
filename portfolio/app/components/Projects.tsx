@@ -96,7 +96,7 @@ function ProjectCard({ project, index, onClick }: { project: any; index: number;
             </h3>
           </div>
 
-          <p className="text-xl md:text-2xl text-foreground font-sekuya tracking-wide max-w-2xl">
+          <p className="text-xl max-sm:hidden lg:flex  md:text-2xl text-foreground font-sekuya tracking-wide max-w-2xl">
             {project.desc[0]}
           </p>
 
@@ -246,7 +246,7 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
             <a
               href={project.preview}
               target="_blank"
-              className="group w-full py-6 bg-foreground text-background text-center font-mono uppercase tracking-[0.3em] text-sm hover:bg-accent-gold transition-all duration-500 flex items-center justify-center gap-3 shadow-lg"
+              className="group w-full py-6 bg-accent-gold text-black text-center font-mono uppercase tracking-[0.3em] text-sm hover:bg-accent-gold-dark transition-all duration-500 flex items-center justify-center gap-3 shadow-lg"
             >
               LAUNCH PROJECT <span className="text-xl inline-block group-hover:translate-x-1 transition-transform">↗</span>
             </a>

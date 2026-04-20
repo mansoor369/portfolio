@@ -9,14 +9,14 @@ export default function ContactMe() {
 
   return (
     <section id="contact" className="mt-32 flex flex-col">
-      <span className="text-[11px] mb-44 font-extralight font-mono relative tracking-[0.2em] text-accent-gold-dark uppercase whitespace-nowrap">
+      <span className="text-[11px] mb-24 md:mb-44 font-extralight font-mono relative tracking-[0.2em] text-accent-gold-dark uppercase">
         / OPEN CHANNEL / p. 002
       </span>
-      <span className="text-[11px] font-mono capitalize font-extralight tracking-[0.4em] text-accent-gold-dark uppercase whitespace-nowrap">
+      <span className="text-[11px] font-mono font-extralight tracking-[0.4em] text-accent-gold-dark uppercase">
         Lets make something that means something
       </span>
 
-      <Link href="mailto:mkyzai3333@gmail.com" className="text-[6vw] mt-4 uppercase font-bebas hover:text-accent-gold-dark duration-150 ease-in transition-all cursor-none">
+      <Link href="mailto:mkyzai3333@gmail.com" className="text-[8vw] md:text-[6vw] mt-4 md:mt-6 uppercase font-bebas hover:text-accent-gold-dark duration-150 ease-in transition-all cursor-none break-all sm:break-normal">
         mkyzai3333@gmail.com
       </Link>
 

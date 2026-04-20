@@ -75,7 +75,12 @@ export default function Header() {
   const navRadius = useTransform(smoothScroll, [0, 100], ["0px", "999px"]);
 
   // 5. Extra: Add some padding to the pill for breathing room
-  const navInsidePadding = useTransform(smoothScroll, [0, 100], ["0px 0px", "9px 26px"]);
+  // Use slightly smaller padding on mobile
+  const navInsidePadding = useTransform(
+    smoothScroll,
+    [0, 100],
+    ["0px 0px", "6px 16px md:9px md:26px"]
+  );
 
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
@@ -113,8 +118,6 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-transparent">
       <motion.div
-        // We use headerPadding for the overall shrinking effect, but remove top-level opacity 
-        // because we are now doing it word-by-word inside the h1.
         style={{ pointerEvents: pointerEvents, paddingTop: headerPadding, paddingBottom: headerPadding }}
         className="flex justify-center overflow-visible"
       >
@@ -122,7 +125,7 @@ export default function Header() {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="text-4xl font-sekuya tracking-tight flex select-none drop-shadow-2xl"
+          className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-sekuya tracking-tight flex select-none drop-shadow-2xl"
         >
           {words.map((word, wordIndex) => (
             <HeaderWord
@@ -136,20 +139,16 @@ export default function Header() {
         </motion.h1>
       </motion.div>
 
-
-
       <nav className="pb-8 flex justify-center sticky top-5">
         <motion.ul
-          // Link the background, color, and padding to the scroll
           style={{ backgroundColor: navBg, color: navColor, borderRadius: navRadius, padding: navInsidePadding }}
-          className="flex gap-14 items-center  justify-center border border-white/0"
+          className="flex gap-4  sm:gap-8 md:gap-14 items-center justify-center border border-white/0"
         >
           {headerlinks.map((links, index) => (
             <li key={index}>
               <Link
                 href={links.link}
-                // We use motion.a so we can pass down the color transform
-                className="text-[11px] font-sans hover:bg-accent-gold-dark p-2 rounded-full hover:text-black tracking-[0.3em] uppercase hover:-skew-x-6 transition-all duration-500 ease-in-out relative group"
+                className="text-[10px] md:text-[12px] font-sans hover:bg-accent-gold-dark p-2 rounded-full hover:text-black tracking-[0.2em] md:tracking-[0.3em] uppercase hover:-skew-x-6 transition-all duration-500 ease-in-out relative group whitespace-nowrap"
               >
                 {links.name}
               </Link>
@@ -157,9 +156,9 @@ export default function Header() {
           ))}
         </motion.ul>
       </nav>
-
     </header>
   );
 }
+
 
 
