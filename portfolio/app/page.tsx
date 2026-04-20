@@ -8,13 +8,7 @@ import 'lenis/dist/lenis.css'
 import Lenis from 'lenis'
 export default function Home() {
   useEffect(() => {
-    // Initialize Lenis
-    const lenis = new Lenis({
-      duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-    });
-
-    // Use requestAnimationFrame to continuously update the scroll
+    const lenis = new Lenis();
     function raf(time: number) {
       lenis.raf(time);
       requestAnimationFrame(raf);
