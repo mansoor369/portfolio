@@ -60,7 +60,7 @@ export default function Intro() {
   // "KHAN" moves RIGHT
   const khanX = useTransform(globalScroll, [0, 0.15], [0, 300]);
   // Line fades to 0
-  const lineOpacity = useTransform(globalScroll, [0, 0.05], [0.2, 0]);
+  const lineX = useTransform(globalScroll, [0, 0.05], [0, 2000]);
 
   return (
     <section className=" mt-16">
@@ -93,7 +93,7 @@ export default function Intro() {
           KHAN
         </motion.div>
         <motion.div
-          style={{ opacity: lineOpacity }}
+          style={{ x: lineX }}
           className="h-px my-8 bg-accent-gold-dark w-full shadow-[0_0_10px_rgba(212,178,83,0.3)] animate-pulse"
         ></motion.div>
       </div>

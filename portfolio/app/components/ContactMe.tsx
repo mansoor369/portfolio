@@ -9,7 +9,7 @@ export default function ContactMe() {
 
   return (
     <section id="contact" className="mt-32 flex flex-col">
-      <span className="text-[11px] mb-10 font-extralight font-mono relative tracking-[0.2em] text-accent-gold-dark uppercase whitespace-nowrap">
+      <span className="text-[11px] mb-44 font-extralight font-mono relative tracking-[0.2em] text-accent-gold-dark uppercase whitespace-nowrap">
         / OPEN CHANNEL / p. 002
       </span>
       <span className="text-[11px] font-mono capitalize font-extralight tracking-[0.4em] text-accent-gold-dark uppercase whitespace-nowrap">
