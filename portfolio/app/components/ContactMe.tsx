@@ -16,7 +16,7 @@ export default function ContactMe() {
         Lets make something that means something
       </span>
 
-      <Link href="mailto:mkyzai3333@gmail.com" className="text-[8vw] md:text-[6vw] mt-4 md:mt-6 uppercase font-bebas hover:text-accent-gold-dark duration-150 ease-in transition-all cursor-none break-all sm:break-normal">
+      <Link href="mailto:mkyzai3333@gmail.com" className="text-[8vw]  md:text-[6vw] mt-4 md:mt-6 uppercase font-bebas hover:text-accent-gold-dark duration-150 ease-in transition-all cursor-none break-all sm:break-normal">
         mkyzai3333@gmail.com
       </Link>
 

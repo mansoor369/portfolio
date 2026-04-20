@@ -79,7 +79,7 @@ export default function Header() {
   const navInsidePadding = useTransform(
     smoothScroll,
     [0, 100],
-    ["0px 0px", "6px 16px md:9px md:26px"]
+    ["0px 0px", "10px 20px"]
   );
 
   const containerVariants: Variants = {
@@ -148,7 +148,7 @@ export default function Header() {
             <li key={index}>
               <Link
                 href={links.link}
-                className="text-[10px] md:text-[12px] font-sans hover:bg-accent-gold-dark p-2 rounded-full hover:text-black tracking-[0.2em] md:tracking-[0.3em] uppercase hover:-skew-x-6 transition-all duration-500 ease-in-out relative group whitespace-nowrap"
+                className="text-[10px] md:text-[12px] font-sans p-1 rounded-full hover:text-black tracking-[0.2em] md:tracking-[0.3em] uppercase hover:-skew-x-6 transition-all duration-500 ease-in-out relative group whitespace-nowrap"
               >
                 {links.name}
               </Link>
