@@ -11,10 +11,10 @@ export default function About() {
   ];
 
   return (
-    <section className="mt-32 pb-32">
+    <section id="about" className="mt-32 pb-32">
       <div className="flex flex-col  gap-4 mb-8">
         <span className="text-[13px] font-mono tracking-[0.4em] text-accent-gold-dark uppercase whitespace-nowrap">
-          / WHO AM I / P.003
+          / WHO AM I / P.001
         </span>
         <p className="text-[18px] mt-10  font-bebas tracking-widest text-accent-gold-dark"> THE CODE</p>
 

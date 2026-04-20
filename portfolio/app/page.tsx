@@ -6,6 +6,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import 'lenis/dist/lenis.css'
 import Lenis from 'lenis'
+import ContactMe from "./components/ContactMe";
 export default function Home() {
   useEffect(() => {
     const lenis = new Lenis();
@@ -30,6 +31,7 @@ export default function Home() {
         <Intro />
         <About />
         <Projects />
+        <ContactMe />
       </div>
     </div>
   );

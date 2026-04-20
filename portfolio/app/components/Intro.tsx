@@ -44,12 +44,23 @@ function StickySentence({ text, progress, range, classname }: { text: string, pr
 export default function Intro() {
   const [colorchange, setcolorchange] = useState(false);
   const containerRef = useRef(null);
+  const heroRef = useRef(null);
 
-  // Track the scroll progress of the entire quote container
+  // Track the scroll progress of the entire quote container for sticky text
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start start", "end end"]
   });
+
+  // Track global scroll for parallax effects on the name and line
+  const { scrollYProgress: globalScroll } = useScroll();
+
+  // "MANSOOR" moves UP
+  const mansoorY = useTransform(globalScroll, [0, 0.15], [0, -100]);
+  // "KHAN" moves RIGHT
+  const khanX = useTransform(globalScroll, [0, 0.15], [0, 300]);
+  // Line fades to 0
+  const lineOpacity = useTransform(globalScroll, [0, 0.05], [0.2, 0]);
 
   return (
     <section className=" mt-16">
@@ -64,16 +75,27 @@ export default function Intro() {
 
       {/* Main Hero Typography */}
       <div
+        ref={heroRef}
         onMouseEnter={() => setcolorchange(true)}
         onMouseLeave={() => setcolorchange(false)}
         className="mt-8 flex flex-col items-start select-none w-full overflow-hidden cursor-default"
       >
-        <div className={`font-bebas transition-colors duration-300 text-[20.5vw] font-bold leading-[0.85] tracking-wider ${colorchange ? "text-accent-gold-dark" : "text-foreground"}`}>
+        <motion.div
+          style={{ y: mansoorY }}
+          className={`font-bebas transition-colors duration-300 text-[20.5vw] font-bold leading-[0.85] tracking-wider ${colorchange ? "text-accent-gold-dark" : "text-foreground"}`}
+        >
           MANSOOR
-        </div>
-        <div className={`font-bebas transition-colors duration-300 text-[20.5vw] font-bold leading-[0.9] ml-5 tracking-wider -mt-[0.1em] ${colorchange ? "text-white" : "text-accent-gold-dark"}`}>
+        </motion.div>
+        <motion.div
+          style={{ x: khanX }}
+          className={`font-bebas transition-colors duration-300 text-[20.5vw] font-bold leading-[0.9] ml-5 tracking-wider -mt-[0.1em] ${colorchange ? "text-white" : "text-accent-gold-dark"}`}
+        >
           KHAN
-        </div>
+        </motion.div>
+        <motion.div
+          style={{ opacity: lineOpacity }}
+          className="h-px my-8 bg-accent-gold-dark w-full shadow-[0_0_10px_rgba(212,178,83,0.3)] animate-pulse"
+        ></motion.div>
       </div>
 
       {/* STICKY SCROLL SECTION */}
@@ -104,6 +126,7 @@ export default function Intro() {
     </section>
   );
 }
+
 
 
 
