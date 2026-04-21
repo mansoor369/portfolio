@@ -81,16 +81,31 @@ export default function Intro() {
         className="mt-6 md:mt-8 flex flex-col items-start select-none w-full overflow-hidden cursor-default"
       >
         <motion.div
-          style={{ y: mansoorY }}
-          className={`font-bebas transition-colors duration-300 text-[24vw] sm:text-[22vw] md:text-[20.5vw] font-bold leading-[0.85] tracking-wider ${colorchange ? "text-accent-gold-dark" : "text-foreground"}`}
+          initial={{ x: "-20vw", opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
         >
-          MANSOOR
+          <motion.div
+            style={{ y: mansoorY }}
+            className={`font-bebas transition-colors duration-300 text-[24vw] sm:text-[22vw] md:text-[20.5vw] font-bold leading-[0.85] tracking-wider ${colorchange ? "text-accent-gold-dark" : "text-foreground"}`}
+          >
+            MANSOOR
+          </motion.div>
         </motion.div>
         <motion.div
-          style={{ x: khanX }}
-          className={`font-bebas transition-colors duration-300 text-[24vw] sm:text-[22vw] md:text-[20.5vw] font-bold leading-[0.9] ml-2 md:ml-5 tracking-wider -mt-[0.1em] ${colorchange ? "text-white" : "text-accent-gold-dark"}`}
+          initial={{ x: "20vw", opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2, ease: "easeOut", delay: 0.3 }}
+          className="ml-2 md:ml-5 -mt-[0.1em]"
         >
-          KHAN
+          <motion.div
+            style={{ x: khanX }}
+            className={`font-bebas transition-colors duration-300 text-[24vw] sm:text-[22vw] md:text-[20.5vw] font-bold leading-[0.9] tracking-wider ${colorchange ? "text-white" : "text-accent-gold-dark"}`}
+          >
+            KHAN
+          </motion.div>
         </motion.div>
         <motion.div
           style={{ x: lineX }}
