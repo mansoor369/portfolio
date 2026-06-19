@@ -203,7 +203,7 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
             src={project.thumbnail}
             alt={project.title}
             fill
-            className="object-cover group-hover:scale-105 transition-transform duration-1000"
+            className="object-contain group-hover:scale-105 transition-transform duration-1000"
             sizes="100vw"
             priority
           />
@@ -214,9 +214,16 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
           {/* Main Description */}
           <div className="lg:col-span-8 flex flex-col gap-10">
             <h2 className="text-7xl md:text-9xl font-bebas uppercase leading-none">{project.title}</h2>
-            <p className="text-xl md:text-3xl font-sekuya text-foreground/80 leading-relaxed max-w-3xl">
-              {project.desc.join(" ")}
-            </p>
+            <ul className="flex flex-col gap-8">
+              {project.desc.map((item, idx) => (
+                <li key={idx} className="flex gap-6 group">
+                  <span className="text-accent-gold-dark font-mono text-xl md:text-2xl pt-2">/</span>
+                  <p className="text-xl md:text-xl font-sekuya text-foreground/80 leading-relaxed max-w-3xl">
+                    {item}
+                  </p>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Sidebar Info */}
@@ -266,7 +273,7 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
                   src={img}
                   alt={`${project.title} visual ${i + 1}`}
                   fill
-                  className="object-cover"
+                  className="object-contain"
                   sizes="100vw"
                 />
               </div>

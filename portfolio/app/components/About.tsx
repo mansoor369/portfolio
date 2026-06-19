@@ -9,10 +9,10 @@ function SkillRow({ skill, index }: { skill: { label: string, items: string[] },
       initial={{ y: 100, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       viewport={{ once: false, amount: 0.2 }}
-      transition={{ 
-        duration: 0.8, 
+      transition={{
+        duration: 0.8,
         delay: index * 0.05,
-        ease: [0.33, 1, 0.68, 1] 
+        ease: [0.33, 1, 0.68, 1]
       }}
       className="group flex flex-col md:flex-row items-start md:items-center py-4 md:py-6 border-b border-white/10 transition-all duration-500 hover:bg-white/[0.02] px-4 md:px-8"
     >
@@ -43,8 +43,8 @@ function SkillRow({ skill, index }: { skill: { label: string, items: string[] },
 export default function About() {
   const containerRef = useRef(null);
   const skills = [
-    { label: "LANGS", items: ["TypeScript", "JavaScript", "C++", "Java", "C#"] },
-    { label: "FRONT", items: ["React", "Next.js", "Tailwind CSS", "Framer Motion"] },
+    { label: "LANGS", items: ["TypeScript", "JavaScript", "C++", "Java", "C#", "Python"] },
+    { label: "FRONT", items: ["React", "Vue.js", "Next.js", "Nuxt.js", "Tailwind CSS", "Framer Motion"] },
     { label: "BACK", items: ["Node.js", "Express.js", "Socket.io"] },
     { label: "DATA", items: ["MongoDB", "PostgreSQL", "SupaBase", "NeonDB"] },
     { label: "TOOLS", items: ["Git", "GitHub", "Docker", "Figma"] },
@@ -69,7 +69,7 @@ export default function About() {
         <p className="text-[16px] md:text-[18px] mt-6 md:mt-10 font-bebas tracking-widest text-accent-gold-dark uppercase">THE CODE</p>
       </div>
 
-      <motion.h1 
+      <motion.h1
         style={{ y: smoothTitleY }}
         className="text-[15vw] sm:text-[14vw] md:text-[13vw] lg:text-[12vw] font-bebas text-foreground leading-none mb-16 md:mb-24 select-none will-change-transform"
       >

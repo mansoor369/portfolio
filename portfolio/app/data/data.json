@@ -147,6 +147,81 @@
         },
         {
             "show": true,
+            "title": "BrickCode",
+            "desc": [
+                "A lightweight, flexible job progress tracking tool designed for multi-site construction projects to monitor real-time health and daily field reports.",
+                "Implements a sophisticated domain model connecting Projects, Sites, and Jobs with trade-specific tracking for Masonry, Plumbing, Electricity, and more.",
+                "Surfaces blockers and schedule deviations through an integrated daily reporting system, allowing project managers to identify risks early and reallocate resources.",
+                "Supports detailed site specification tracking including technical HVAC requirements, electrical phases, and structural material joinery across all job types."
+            ],
+            "year": "2026",
+            "preview": "#",
+            "code": "#",
+            "thumbnail": "/brickcode/site dashboard.png",
+            "images": [
+                "/brickcode/site dashboard.png",
+                "/brickcode/projects Management.png",
+                "/brickcode/project details.png",
+                "/brickcode/job details.png",
+                "/brickcode/job creation.png",
+                "/brickcode/Employeee Management.png",
+                "/brickcode/french.png"
+            ],
+            "tech": [
+                "Vue.js",
+                "Nuxt.js",
+                "TypeScript",
+                "Node.js",
+                "Prisma",
+                "PostgreSQL",
+                "Tailwind CSS"
+            ],
+            "slug": "brickcode",
+            "categories": [
+                "Web Development"
+            ]
+        },
+        {
+            "show": true,
+            "title": "The ChemistLive",
+            "desc": [
+                "A full-cycle digital health platform covering weight loss, hair fall, and other treatments — connecting patients with clinicians from initial assessment all the way to medication delivery.",
+                "Built multi-step patient assessment workflows with conditional logic to evaluate eligibility, blood test ordering flows, Setmore appointment booking (virtual & onsite), and Stripe-powered medication ordering.",
+                "Developed a multi-role portal system for Managers, Admins, Clinicians, and Dieticians — each with dedicated workflows for reviewing orders, managing assessments, approving appointments, and handling patient care.",
+                "Integrated in-platform messaging, real-time treatment tracking, and approval/rejection notifications — all wrapped in a fully responsive, accessible UI built for seamless cross-device use."
+            ],
+            "year": "2026",
+            "preview": "https://www.thechemistlive.com/",
+            "code": "#",
+            "thumbnail": "/chemistlive/first.png",
+            "images": [
+                "/chemistlive/first.png",
+                "/chemistlive/homepag2.png",
+                "/chemistlive/homnepage3.png",
+                "/chemistlive/admin dashboard.png",
+                "/chemistlive/clinician Dashboard.png",
+                "/chemistlive/Manager.png",
+                "/chemistlive/Messaging.png",
+                "/chemistlive/Tour Based Assessment Questions.png",
+                "/chemistlive/User Role .png"
+            ],
+            "tech": [
+                "Next.js",
+                "Node.js",
+                "Prisma",
+                "Postgres SQL",
+                "Stripe",
+                "Setmore",
+                "Tailwind CSS",
+                "TypeScript"
+            ],
+            "slug": "chemistlive",
+            "categories": [
+                "Web Development"
+            ]
+        },
+        {
+            "show": true,
             "title": "YB Consultants",
             "desc": [
                 "Students can register for universities, upload documents, and track their application status through an intuitive dashboard.",
