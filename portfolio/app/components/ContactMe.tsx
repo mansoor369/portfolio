@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function ContactMe() {
   const links = [
     { label: "GITHUB", href: "https://github.com/mansoor369" },
-    // { label: "LINKEDIN", href: "https://www.linkedin.com/in/mkyzai333/" },
+    { label: "LINKEDIN", href: "https://www.linkedin.com/in/mansoor-khan212/" },
     { label: "INSTAGRAM", href: "https://www.instagram.com/mansoorkhan_._/" },
   ]
 
@@ -16,8 +16,8 @@ export default function ContactMe() {
         Lets make something that means something
       </span>
 
-      <Link href="mailto:mkyzai3333@gmail.com" className="text-[8vw]  md:text-[6vw] mt-4 md:mt-6 uppercase font-bebas hover:text-accent-gold-dark duration-150 ease-in transition-all cursor-none break-all sm:break-normal">
-        mkyzai3333@gmail.com
+      <Link href="mailto:mkyzai333@gmail.com" className="text-[8vw]  md:text-[6vw] mt-4 md:mt-6 uppercase font-bebas hover:text-accent-gold-dark duration-150 ease-in transition-all cursor-none break-all sm:break-normal">
+        mkyzai333@gmail.com
       </Link>
 
       <div className="h-px my-8 bg-accent-gold-dark w-full shadow-[0_0_10px_rgba(212,178,83,0.3)] animate-pulse"></div>

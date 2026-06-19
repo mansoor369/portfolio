@@ -91,12 +91,12 @@ function ProjectCard({ project, index, onClick }: { project: any; index: number;
         <div className="lg:col-span-8 flex flex-col gap-6">
           <div className="flex items-center gap-4">
             <span className="text-accent-gold-dark font-mono text-sm">0{index}</span>
-            <h3 className="text-6xl md:text-8xl lg:text-9xl font-bebas uppercase leading-none tracking-tight">
+            <h3 className="text-3xl md:text-6xl xl:text-9xl font-bebas uppercase leading-none tracking-tight">
               {project.title}
             </h3>
           </div>
 
-          <p className="text-xl max-sm:hidden lg:flex  md:text-2xl text-foreground font-sekuya tracking-wide max-w-2xl">
+          <p className="text-xl max-sm:hidden lg:flex  md:text-xs xl:text-xl text-foreground font-sekuya tracking-wide max-w-2xl">
             {project.desc[0]}
           </p>
 
@@ -213,12 +213,12 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-40">
           {/* Main Description */}
           <div className="lg:col-span-8 flex flex-col gap-10">
-            <h2 className="text-7xl md:text-9xl font-bebas uppercase leading-none">{project.title}</h2>
+            <h2 className="text-5xl md:text-9xl font-bebas uppercase leading-none">{project.title}</h2>
             <ul className="flex flex-col gap-8">
               {project.desc.map((item, idx) => (
                 <li key={idx} className="flex gap-6 group">
                   <span className="text-accent-gold-dark font-mono text-xl md:text-2xl pt-2">/</span>
-                  <p className="text-xl md:text-xl font-sekuya text-foreground/80 leading-relaxed max-w-3xl">
+                  <p className="text-xs md:text-xl font-sekuya text-foreground/80 leading-relaxed max-w-3xl">
                     {item}
                   </p>
                 </li>
@@ -242,7 +242,7 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
             <div className="grid grid-cols-2 gap-8 border-y border-white/10 py-10">
               <div>
                 <h4 className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/40 mb-3">Role</h4>
-                <p className="text-lg font-sekuya">Lead Developer</p>
+                <p className="md:text-lg text-sm font-sekuya">Lead Developer</p>
               </div>
               <div>
                 <h4 className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/40 mb-3">Project Year</h4>

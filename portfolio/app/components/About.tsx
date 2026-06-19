@@ -27,7 +27,7 @@ function SkillRow({ skill, index }: { skill: { label: string, items: string[] },
       <div className="flex flex-wrap items-center gap-x-4 md:gap-x-6 gap-y-1 md:gap-y-0">
         {skill.items.map((item, itemIndex) => (
           <div key={itemIndex} className="flex items-center">
-            <span className="text-lg md:text-[16px] font-bold text-neutral-400 font-sans tracking-tight group-hover:text-foreground transition-colors duration-300">
+            <span className="text-lg md:text-[10px] xl:text-[16px] font-bold text-neutral-400 font-sans tracking-tight group-hover:text-foreground transition-colors duration-300">
               {item}
             </span>
             {itemIndex < skill.items.length - 1 && (
